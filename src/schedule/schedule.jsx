@@ -6,20 +6,28 @@ export default function Schedule() {
 
     const events = [
         {
-            name: "Call for Papers",
-            date: "August 25 , 2024",
+            name: "Conference Dates",
+            date: "April 3, 4 and 5, 2025",
         },
         {
-            name: "Draft Paper Submission",
-            date: "December 31 , 2024",
+            name: "Conference Location",
+            date: "Kochi 21, Kerala, India",
+        },
+        {
+            name: "Call for Papers Announcement",
+            date: "1st September, 2024",
+        },
+        {
+            name: "Last date for draft paper submission",
+            date: "Nov 15th, 2024",
         },
         {
             name: "Notification of Acceptance",
-            date: "February 10 , 2025",
+            date: "Dec 20th, 2023",
         },
         {
-            name: "Final Camera Ready Paper",
-            date: "February 25 , 2025",
+            name: "Final Camera-ready Paper",
+            date: "Feb 10th, 2024",
         },
     ];
 

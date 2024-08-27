@@ -7,7 +7,10 @@ export default function Navbar() {
   return (
     <div className="navbar">
             <div className="logo-div">
-                  <img src={kerala_chapter} alt="" />
+                  <div className='logo-text'>
+                        <img src={kerala_chapter} alt="" />
+                        <span>IEEE KERALA CHAPTER</span>
+                  </div>
                   <span>ICTEST</span>
             </div>
             <ul>
@@ -18,7 +21,10 @@ export default function Navbar() {
 
             </ul>
             <div className="logo-div">
-                  <img class="mec-logo" src={mecLogo} alt="" />
+                  <div className='logo-text'>
+                        <img class="mec-logo" src={mecLogo} alt="" />
+                        <span>Govt. Model Engineering College</span>
+                  </div>
             </div>                 
     </div>
   )

@@ -17,8 +17,8 @@ function App() {
         <Routes>
           <Route path="/" element={<><Dashboard /><MainPage /></>} />
           <Route path="/gallery" element={<ImageGallery />} />
-          <Route path="/schedules" element={<Schedule />}/>
-          <Route path="/publications.jsx" element={<Publications />}/>
+          <Route path="/schedule" element={<Schedule />}/>
+          <Route path="/publications" element={<Publications />}/>
         </Routes>
       </BrowserRouter>
     </>

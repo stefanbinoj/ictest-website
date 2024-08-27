@@ -12,14 +12,14 @@ export default function Navbar() {
             </div>
             <ul>
                   <li><div className='hover-circle'></div><a href={'/'}>home</a></li>
-                  <li><div className='hover-circle'></div><a href={'/gallery'}>gallery</a></li>
-                  <li><div className='hover-circle'></div><a href={'/publications'}>publications</a></li>
-                  <li><div className='hover-circle'></div><a href={'/schedule'}>schedule</a></li>
+                  <li><div className='hover-circle'></div><a href={'/schedule'}>For Authors</a></li>
+                  <li><div className='hover-circle'></div><a href={'/'}>committee   </a></li>
+                  <li><div className='hover-circle'></div><a href={'/gallery'}>ICTEST <span className="year-2024">2024</span></a></li>
+
             </ul>
             <div className="logo-div">
-                  <img src={mecLogo} alt="" />
-            </div>            
-            <button className='login-btn-li'><div className='hover-circle-loginBtn'></div>Login</button>
+                  <img class="mec-logo" src={mecLogo} alt="" />
+            </div>                 
     </div>
   )
 }

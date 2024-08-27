@@ -1,8 +1,11 @@
 import "./publications.css";
 import Navbar from "../navbar/navbar.jsx";
 import React, { useState, useEffect } from 'react';
+function createData(name, year,authors) {
+  return { name, year,authors };
+}
 
-export default function Publications() {
+export default function publications() {
 
 const publications = [
     {
@@ -47,13 +50,7 @@ const publications = [
         date: '2024',
         publisher: 'Ashly Elizebath Joseph,Dua Ashraf,Richa Ann Abraham,Thushar Thomas Thakadipurath,Neena Joseph',
       },
-      {
-        title: 'GUI Element Detection via YOLOV8: A Deep Learning Approach for Widget Identification',
-        url: 'https://ieeexplore.ieee.org/document/10576164/',
-        date: '2024',
-        publisher: 'Suji Jose,Philip Samuel,Sumam Mary Idicula',
-      },
-      
+ 
   ];
 
     return (
@@ -62,20 +59,31 @@ const publications = [
       <div className="publications-main">
         <h1>Publications</h1>
         <div className="publications">
+              <table>
+           <tr>
+                    <th>Title</th>
+                    <th>Year</th>
+                    <th>Authors</th>
+                </tr>
         {publications.map((pub, index) => (
-          <div key={index}>
-            <h2>
-              <a href={pub.url} target="_blank" rel="noopener noreferrer">
+          <>
+           <tr key={index}>
+            <td>
+              <h4><a href={pub.url} target="_blank" rel="noopener noreferrer">
                 {pub.title}
               </a>
-            </h2>
-            <p>{pub.date}</p>
-            <p>Published by: {pub.publisher}</p>
-          </div>
+              </h4>
+              </td>
+            <td><p>{pub.date}</p></td>
+            <td><p>{pub.publisher}</p></td>
+            </tr>
+          </>
         ))}
+            </table>
+              <p className="readmore"><a href="https://ieeexplore.ieee.org/xpl/conhome/10576062/proceeding">[Read more]</a></p>
       </div>
-      <p><a href="https://ieeexplore.ieee.org/xpl/conhome/10576062/proceeding">[Read more]</a></p>
       </div>
       </>
     );
   }
+

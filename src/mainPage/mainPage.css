@@ -1,16 +1,21 @@
 .main-parent-div{
       position: relative;
       display: flex;
-      flex-direction: column;
-      align-items: center;
+      flex-direction: row;
+      height: 700px;
+      justify-content: center;
+
+
+
+      
 }
-.ieee-background-image-div{
+ .ieee-background-image-div{
       display: flex;
       align-items: center;
       justify-content: center;
       position:sticky;
       top: 0;
-}
+} 
 /*animation image*/
 .animating-image{
       animation: rotation 150s linear 0s infinite forwards normal;
@@ -23,7 +28,7 @@
 /*animation image*/
 .ieee-background-image-div img{
       position: absolute;
-      top: 0;
+      top: 0px;
       width: 40rem;
 }
 .main-parent-div h1{

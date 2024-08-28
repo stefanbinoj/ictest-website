@@ -7,19 +7,26 @@ export default function Navbar() {
   return (
     <div className="navbar">
             <div className="logo-div">
-                  <img src={kerala_chapter} alt="" />
+                  <div className='logo-text'>
+                        <a href="https://r10.ieee.org/kerala-es/" target='_blank'><img src={kerala_chapter} alt="" /></a>
+                        <span>IEEE KERALA CHAPTER</span>
+                  </div>
                   <span>ICTEST</span>
             </div>
             <ul>
                   <li><div className='hover-circle'></div><a href={'/'}>home</a></li>
-                  <li><div className='hover-circle'></div><a href={'/gallery'}>gallery</a></li>
-                  <li><div className='hover-circle'></div><a href={'/publications'}>publications</a></li>
-                  <li><div className='hover-circle'></div><a href={'/schedule'}>schedule</a></li>
+                  <li><div className='hover-circle'></div><a href={'/forauthors'}>For Authors</a></li>
+                  <li><div className='hover-circle'></div><a href={'/'}>committee   </a></li>
+                  <li><div className='hover-circle'></div><a href={'/gallery'}>ICTEST <span className="year-2024">2024</span></a></li>
+                  
+
             </ul>
             <div className="logo-div">
-                  <img src={mecLogo} alt="" />
-            </div>            
-            <button className='login-btn-li'><div className='hover-circle-loginBtn'></div>Login</button>
+                  <div className='logo-text'>
+                        <a href="https://www.mec.ac.in/" target='_blank'><img className="mec-logo" src={mecLogo} alt="" /></a>
+                        <span>Govt. Model Engineering College</span>
+                  </div>
+            </div>                 
     </div>
   )
 }

@@ -33,6 +33,7 @@ const ImageGallery = () => {
                     </div>
                 ))}
             </div>
+            <p>All Publications can be found <a href="https://ieeexplore.ieee.org/xpl/conhome/10576062/proceeding" target='_blank'>here</a></p>
         </div>
     );
 };

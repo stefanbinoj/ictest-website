@@ -1,0 +1,34 @@
+.conference{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.conference p{
+    letter-spacing: 1px;
+      padding-bottom: 1rem;
+      padding-right: 9rem;
+      padding-left: 9rem;
+      font-size:17px ;
+      margin: 0px;
+      
+}
+.conference h2{
+    font-size: 30px;
+    text-transform:uppercase;
+    align-self: flex-start;
+    padding-left: 9rem;
+    margin-bottom: 0px;
+}
+.conference-track{
+    align-self: flex-start;
+    padding-left: 9rem;
+}
+.conference-track ul{
+    list-style: none;
+}
+.conference-track li{
+    padding-bottom: 5px;
+    font-size: 18px;
+}

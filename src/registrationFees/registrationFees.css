@@ -1,0 +1,38 @@
+.registration-fees-bg{
+    
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 20px;
+}
+
+.register{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap:50px;
+    align-items: start;
+    margin-left: 40px;
+
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+  }
+.fees-box{
+    display: flex;
+    align-items: center;
+    
+}
+.fees-box p{
+    padding: 0px;
+    margin-left: auto;
+    padding-left: 15px;
+    margin-top: 25px;
+}
+.fees-box h2{
+    font-size: 24px ;
+    height: 24px;
+}

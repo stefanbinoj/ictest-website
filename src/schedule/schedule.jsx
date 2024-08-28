@@ -27,14 +27,15 @@ export default function Schedule() {
         },
         {
             name: "Final Camera-ready Paper",
-            date: "Feb 10th, 2024",
+            date: "Feb 10th, 2025",
         },
     ];
+    
 
     return (
         <>
             <Navbar/>
-            <div className="schedule-main">
+            <div className="schedule-bg">
                 <h1>Schedule</h1>
                 <div className="schedule">
                     {events.map((event) => (
@@ -46,6 +47,12 @@ export default function Schedule() {
                             <hr/>
                         </>
                     ))}
+                </div>
+                <button>Register now</button>
+                <div className="contact-info">
+                    <h3>contact information</h3>
+                    <span>email: ictest25@mec.ac.in</span><br></br>
+                    <span>(M) +91 9447991108, +919447219957</span>
                 </div>
             </div>
         </>

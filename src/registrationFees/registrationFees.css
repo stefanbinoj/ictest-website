@@ -1,0 +1,43 @@
+.registration-fees-bg{
+    
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.registration-fees-bg h1 {
+    text-align: center;
+    align-self: center;
+    font-size: 3rem;
+    color: white; /* Changed text color to stand out against the dark background */
+    margin-bottom: 3rem !important;
+    text-transform: uppercase;
+}
+.register{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 65vh;
+    gap:30px;
+    align-items: start;
+    margin-left: 40px;
+
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; Add space between boxes */
+  }
+.fees-box{
+    display: flex;
+    /* justify-content: center ; */
+    align-items: center;
+    
+}
+.fees-box p{
+    padding: 0px;
+
+    padding-left: 15px;
+}
+.fees-box h2{
+    font-size: 24px !important;
+}

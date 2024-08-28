@@ -15,9 +15,10 @@ export default function Navbar() {
             </div>
             <ul>
                   <li><div className='hover-circle'></div><a href={'/'}>home</a></li>
-                  <li><div className='hover-circle'></div><a href={'/schedule'}>For Authors</a></li>
+                  <li><div className='hover-circle'></div><a href={'/forauthors'}>For Authors</a></li>
                   <li><div className='hover-circle'></div><a href={'/'}>committee   </a></li>
                   <li><div className='hover-circle'></div><a href={'/gallery'}>ICTEST <span className="year-2024">2024</span></a></li>
+                  
 
             </ul>
             <div className="logo-div">

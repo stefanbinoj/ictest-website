@@ -36,3 +36,17 @@
 .gallery-item:hover .gallery-image {
     transform: scale(1.05);
 }
+.gallery-container p{
+    
+      color: white;
+      letter-spacing: 1px;
+      padding-top: 2rem;
+      padding-bottom: 1rem;
+      padding-right: 9rem;
+      font-size:20px ;
+      margin: 0px;
+}
+.gallery-container a{
+    color: white;
+    
+}

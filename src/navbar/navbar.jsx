@@ -8,7 +8,7 @@ export default function Navbar() {
     <div className="navbar">
             <div className="logo-div">
                   <div className='logo-text'>
-                        <a href="https://r10.ieee.org/kerala-es/"><img src={kerala_chapter} alt="" /></a>
+                        <a href="https://r10.ieee.org/kerala-es/" target='_blank'><img src={kerala_chapter} alt="" /></a>
                         <span>IEEE KERALA CHAPTER</span>
                   </div>
                   <span>ICTEST</span>
@@ -23,7 +23,7 @@ export default function Navbar() {
             </ul>
             <div className="logo-div">
                   <div className='logo-text'>
-                        <a href="https://www.mec.ac.in/"><img class="mec-logo" src={mecLogo} alt="" /></a>
+                        <a href="https://www.mec.ac.in/" target='_blank'><img className="mec-logo" src={mecLogo} alt="" /></a>
                         <span>Govt. Model Engineering College</span>
                   </div>
             </div>                 

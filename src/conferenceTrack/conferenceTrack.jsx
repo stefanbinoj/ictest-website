@@ -16,9 +16,7 @@ export default function ConfernceTrack(){
     return(
         <>
         <div className="conference">
-            <h1>Conference Tracks</h1>
-            <p>ICTEST25 conference will offer a comprehensive platform for exploring the latest developments across various ​engineering and technology domains. Participants will have the opportunity to engage with cutting-edge research ​and innovations in both established and emerging fields. The conference tracks are designed to cover a wide range ​of topics, ensuring a diverse and enriching experience for all attendees</p>
-            <h2>The tracks include:</h2>
+            <h2>Conference Tracks : </h2>
             <div className="conference-track">
                 <ul>
                     {topics.map((topic, index) => (

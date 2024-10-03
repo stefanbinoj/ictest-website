@@ -7,7 +7,7 @@
       color:white;
       position: absolute;
       top: 0;
-      right: 0;
+      right: 0; 
       left: 0;
       z-index: 0;
 }
@@ -87,5 +87,31 @@ Link{
       margin-left: -13px;
 }
 @media (max-width:680px) {
-      
-}
+      .logo-image{
+            height: 40px;
+            width: 40px;
+      }
+      .navbar{
+            display: flex; 
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 1rem;
+            padding-inline: 2rem;
+            color:white;
+            position: absolute;
+            top: 0;
+            right: 0; 
+            left: 0;
+            z-index: 0;
+      }
+      .ictest{
+            font-size: 22px;
+      }
+      .navbar ul{
+            display: none;
+            
+      }
+      .mec-logo{
+            display: none;
+      }
+} 

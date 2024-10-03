@@ -1,0 +1,18 @@
+.paper-sharing{
+    align-items: flex-start !important;
+    padding-left: 9rem;
+}
+
+@media (max-width:680px) {
+    .paper-sharing{
+        align-items: flex-start !important;
+        padding-left: 20px;
+    }
+    .sharing{
+        box-sizing: border-box;
+        position: absolute;
+
+    }
+
+
+}

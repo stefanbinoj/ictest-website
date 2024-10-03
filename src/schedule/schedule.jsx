@@ -30,7 +30,9 @@ export default function Schedule() {
             date: "Feb 10th, 2025",
         },
     ];
-    
+    const handleRedirect = () => {
+        window.open('https://cmt3.research.microsoft.com/ICTEST2025', '_blank'); // Replace with your URL
+    };
 
     return (
         <>
@@ -48,7 +50,7 @@ export default function Schedule() {
                         </>
                     ))}
                 </div>
-                <button>Register now</button>
+                <button onClick={handleRedirect}>Register now</button>
                 <div className="contact-info">
                     <h3>contact information</h3>
                     <span>email: ictest25@mec.ac.in</span><br></br>

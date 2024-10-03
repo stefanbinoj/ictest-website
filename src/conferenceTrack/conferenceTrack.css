@@ -2,9 +2,9 @@
 .conference {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
+    margin-top: 20px;
     padding-bottom: 100px;
+    align-self: flex-start;
 }
 
 .conference p {
@@ -30,7 +30,8 @@
 }
 
 .conference-track ul {
-    list-style: none;
+    list-style: circle;
+    color: white;
 }
 
 .conference-track li {

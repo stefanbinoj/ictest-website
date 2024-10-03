@@ -8,7 +8,6 @@ export default function ForAuthors() {
         <div className="schedule-main">
             <Schedule />
             <RegistrationFees />
-            <ConfernceTrack />
         </div>
     );
 }

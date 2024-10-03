@@ -40,7 +40,7 @@ export default function Schedule() {
                 <div className="schedule">
                     {events.map((event) => (
                         <>
-                            <div className="event" key={null}>
+                            <div className="event" key={event.name}>
                                 <h2>{event.name}</h2>
                                 <p>{event.date}</p>
                             </div>

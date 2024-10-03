@@ -11,7 +11,7 @@ import image9 from '../gallery_images/image9.JPG';
 import image10 from '../gallery_images/image10.JPG';
 
 
-const ImageGallery = () => {
+const ImageGallery = () => { 
     const images = [
         { src: image1},
         { src: image2},
@@ -34,8 +34,8 @@ const ImageGallery = () => {
                 ))}
             </div>
             <p>All Publications can be found <a href="https://ieeexplore.ieee.org/xpl/conhome/10576062/proceeding" target='_blank'>here</a></p>
-        </div>
-    );
+            </div>
+);
 };
 
 export default ImageGallery;

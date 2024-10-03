@@ -9,6 +9,8 @@
       background-position: center;
       background-repeat:no-repeat;
       background-size: cover;
+      width: 100vw;
+
 }
 .dashboard h1{
       display: flex;
@@ -91,6 +93,7 @@
       font-weight: bold;
     }
 
+
 @media (max-width:680px) {
 
       .dashboard{
@@ -156,5 +159,5 @@
             font-size:16px ;
             margin: 0px;
       }
-
+      
 }

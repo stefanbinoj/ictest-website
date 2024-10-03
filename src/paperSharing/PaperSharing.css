@@ -10,6 +10,8 @@
     }
     .sharing{
         box-sizing: border-box;
+        width: 320px;
+        overflow: hidden;
 
     }
 

@@ -1,14 +1,12 @@
+import './index.css'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import './index.css';    
 import Navbar from './navbar/navbar';
 import Dashboard from './dashboard/dashboard';
-import ImageGallery from './gallery/gallery';
-import Schedule from "./schedule/schedule";
 import Publications from "./publications/publications.jsx";
-import RegistrationFees from "./registrationFees/registrationFees.jsx";
 import ForAuthors from "./forauthors/forauthors.jsx";
+import ImageGallery from './gallery/gallery.jsx';
 
-
+ 
 
 function App() {
   return (

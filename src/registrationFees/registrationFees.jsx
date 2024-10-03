@@ -22,7 +22,7 @@ export default function RegistrationFees() {
   const rightColumn = rate.slice(6, 12);
 
   return (
-    <>
+    <> 
       <Navbar />
       <div className="registration-fees-bg">
         <h1>Registration Fees</h1>

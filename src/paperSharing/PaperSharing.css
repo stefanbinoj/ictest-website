@@ -15,7 +15,7 @@
 
     }
     p{
-        display: block;
+        display: block !important;
     }
     a{
         color: white;

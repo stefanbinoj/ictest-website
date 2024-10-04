@@ -2,6 +2,12 @@
     align-items: flex-start !important;
     padding-left: 9rem;
 }
+.sharing p{
+    display: block !important;
+}
+.sharing a{
+    color: white;
+}
 
 @media (max-width:680px) {
     .paper-sharing{
@@ -14,10 +20,10 @@
         overflow-x: scroll;
 
     }
-    p{
+    .sharing p{
         display: block !important;
     }
-    a{
+    .sharing a{
         color: white;
     }
 
